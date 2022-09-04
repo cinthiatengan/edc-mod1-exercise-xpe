@@ -18,7 +18,7 @@ enem = (
     .option("inferSchema", True)
     .option("header", True)
     .option("delimiter", ";")
-    .load("s3://datalake-cin-edc-2022/raw-data/")
+    .load("s3://datalake-cin-edc-2022/raw-data/enem-data")
 )
 
 # Escreve a tabela em staging em formato delta
