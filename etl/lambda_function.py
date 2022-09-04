@@ -33,7 +33,7 @@ def handler(event, context):
                     'Ec2KeyName': 'cin-teste',
                     'KeepJobFlowAliveWhenNoSteps': True,
                     'TerminationProtected': False,
-                    'Ec2SubnetId': 'subnet-1df20360'
+                    'Ec2SubnetId': 'subnet-024d6c8bff0623bf8'
                 },
 
                 Applications=[
