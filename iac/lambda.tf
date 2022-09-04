@@ -1,5 +1,5 @@
 resource "aws_lambda_function" "executa_emr" {
-  filename      = "lambda_function.py"
+  filename      = "../etl/lambda_function.py"
   function_name = var.lambda_function_name
   role          = aws_iam_role.lambda.arn
   handler       = "lambda_function.handler"
