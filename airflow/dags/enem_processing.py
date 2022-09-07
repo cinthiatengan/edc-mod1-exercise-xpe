@@ -38,7 +38,7 @@ def pipeline_enem():
             JobFlowRole='EMR_EC2_DefaultRole',
             VisibleToAllUsers=True,
             LogUri='s3://datalake-cin-tf/emr-logs',
-            ReleaseLabel='emr-6.0.0',
+            ReleaseLabel='emr-6.3.0',
             Instances={
                 'InstanceGroups': [
                     {
@@ -59,7 +59,7 @@ def pipeline_enem():
                 'Ec2KeyName': 'cin-teste',
                 'KeepJobFlowAliveWhenNoSteps': True,
                 'TerminationProtected': False,
-                'Ec2SubnetId': 'subnet-1df20360'
+                'Ec2SubnetId': 'subnet-024d6c8bff0623bf8'
             },
 
             Applications=[{'Name': 'Spark'}],
