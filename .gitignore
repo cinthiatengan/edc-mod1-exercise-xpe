@@ -1,0 +1,5 @@
+*.csv
+*.pem
+.terraform.lock.hcl
+lambda_function_payload.zip
+linux_amd64/terraform-provider-aws_v4.29.0_x5
